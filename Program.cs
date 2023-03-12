@@ -29,6 +29,11 @@
                 Console.WriteLine("You used Tim's name, didn't you?");
                 //Console.WriteLine(ex.Message);
             }
+            finally
+            {
+                Console.WriteLine("I always run!!");
+            }
+
             Console.ReadLine();
         }
 
